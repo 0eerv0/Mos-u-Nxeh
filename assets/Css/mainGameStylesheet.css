@@ -1,0 +1,21 @@
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 5;
+    width: 45%;
+    padding: 40px 0;
+    text-align: center;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-weight: bold;
+    border: 10px inset #fff;
+
+}
+
+.banner-text p {
+    padding: 0 8%;
+}

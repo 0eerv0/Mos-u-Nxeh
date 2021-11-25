@@ -1,0 +1,50 @@
+{
+    "jungle" : 
+    [
+        {
+            "id": 1,
+            "question" : "Switch the letters to get the correct word : ineconaltn",
+            "answer": "continental"
+        },
+        {
+            "id": 2,
+            "question" : "Switch the letters to get the correct word : umcmodaonr",
+            "answer": "communardo"
+        },
+        {
+            "id": 3,
+            "question" : "Switch the letters to get the correct word : danlis",
+            "answer": "island"
+        },
+        {
+            "id": 4,
+            "question" : "Switch the letters to get the correct word : anaban",
+            "answer": "Banana"
+        }
+    ],
+    
+    "galaxy" :
+        [
+            {
+                "id": 1,
+                "question" : "Switch the letters to get the correct word : ovseratyorb",
+                "answer": "observatory"
+            },
+            {
+                "id": 2,
+                "question" : "Switch the letters to get the correct word : sautmcoon",
+                "answer": "cosmonaut"
+            },
+            {
+                "id": 3,
+                "question" : "Switch the letters to get the correct word : selceepto",
+                "answer": "telescope"
+            },
+            {
+                "id": 4,
+                "question" : "Switch the letters to get the correct word : ctelatlonions",
+                "answer": "constellation"
+            }
+        ]
+}
+        

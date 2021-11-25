@@ -1,0 +1,50 @@
+{
+    "normal" :
+    [
+        {
+            "id": 1,
+            "question" : "What is (12-6) * 5 + 4 / 2?",
+            "answer": "32"
+        },
+        {
+            "id": 2,
+            "question" : "What is 8/2(4-2)?",
+            "answer": "8"
+        },
+        {
+            "id": 3,
+            "question" : "What is the closest whole number to the square root of 10.5 ?",
+            "answer": "3"
+        },
+        {
+            "id": 4,
+            "question" : "What is  12 - 1 * 0 + 4 / 2?",
+            "answer": "12"
+        }
+    ],
+    
+    "hard" :
+    [
+        {
+            "id": 1,
+            "question" : "What is 1843-21+37-22",
+            "answer": "1837"
+        },
+        {
+            "id": 2,
+            "question" : "What is 167*6?",
+            "answer": "1002"
+        },
+        {
+            "id": 3,
+            "question" : "What is the square root of 324?",
+            "answer": "18"
+        },
+        {
+            "id": 4,
+            "question" : "What is the square root of 6561?",
+            "answer": "81"
+        }
+    ]
+}
+        

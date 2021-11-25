@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.row h1 {
+  font-family: "Mochiy Pop P One", sans-serif;
+  color: azure;
+  text-align: center;
+  margin-top: 3%;
+  font-size: 40px;
+  text-shadow: 3px 4px 7px rgba(81, 67, 21, 0.8);
+}
+.turn{
+    box-shadow: #968523ba
+    0px 2000px 1000px -12px inset, 
+    #FFD966ba 0px 18px 36px -18px;
+    border: 3px solid whitesmoke;
+    
+  }
+
+.box {
+  background-color: teal;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.row .timerRow {
+  margin-top: 20%;
+  border-radius: 10px;
+  font-size: 20px;
+  box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 30%);
+  font-weight: 600;
+  color: white;
+  width: fit-content;
+  margin-left: 32%;
+  margin-bottom: 3%;
+}
+
+#pl1 {
+  color: #1f51ff;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 2;
+  text-align: center;
+}
+
+#diceToDisplay {
+  width: 100px;
+  height: 100px;
+  border-radius: 20%;
+  background-color: #aa0000;
+  margin: 5% auto; 
+}
+
+#pl2 {
+  font-family: "Ubuntu", sans-serif;
+  color: #fe17a2;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 2;
+  text-align: center;
+}
+
+
+.command {
+  border: 13px solid white;
+  
+
+}
+
+i {
+  color: white;
+}
+div.layer,
+div.layer div {
+  position: absolute;
+}
+.default .floor {
+  /* background-image: url("./images/tiles.png"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-shadow: 0 0 5pt rgb(255, 255, 255);
+  border-radius: 60%;
+  text-align: center;
+  border: 5px solid rgba(0, 0, 0, 0.3);
+}
+.default .wall {
+  background-color: transparent;
+  border-radius: 16px;
+}
+.default .trap {
+  /* background-image: url("/assets/Css/images/thetrap.PNG"); */
+  /* width: 100%;
+      height: 100%; */
+  background-size: contain;
+  font-display: none;
+  color: whitesmoke;
+  border-radius: 50%;
+}
+.win {
+  background-image: url("/assets/Css/images/6928205-removebg-preview.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+  background-color: goldenrod;
+}
+#sprites.layer {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+}
+
+#station {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 160px;
+  box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+  margin-left: -1.7%;
+  margin-top: 1%;
+}
+#playerOneId {
+
+    text-align: left;
+    color: rgb(122, 127, 131);
+  }
+  #playerTwo {
+    text-align: left;
+    color: rgb(122, 127, 131);
+  }
+  .playerOne {
+    background-color: #1f51ff;
+    border: 3px solid white;
+  }
+  .playerTwo {
+    background-color: #fe17a2;
+    border: 3px solid white;
+  }
+  .wall {
+    border-style: none !important;
+  }
+
+  .winBannerText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    width: 45%;
+    padding: 40px 0;
+    text-align: center;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-weight: bold;
+    border: 10px inset #fff;
+  }
+  .winBannerText p {
+    padding: 0 8%;
+  }
+  .winBtnClose {
+    font-family: "Ubuntu", sans-serif;
+    background-color: transparent;
+    border-radius: 6px;
+    border: 3px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+  }
+  .winBtnClose:active {
+    position: relative;
+    top: 1px;
+  }
+
+  .banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 5;
+    width: 45%;
+    padding: 40px 0;
+    text-align: center;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-weight: bold;
+    border: 10px inset #fff;
+  
+  }
+  
+  
+  .banner-text p {
+    padding: 0 8%;
+  }
+  
+  .error-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 5;
+    width: 45%;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .closeBtn{
+        font-family: 'Ubuntu', sans-serif;
+        background-color: transparent;
+        border-radius:6px;
+        border:3px solid #dcdcdc;
+        display:inline-block;
+        cursor:pointer;
+        color:white;
+        font-size:15px;
+        padding:6px 24px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #ffffff;
+    }
+  
+    .closeBtn:active {
+        position:relative;
+        top:1px;
+    }
+    .closeModal{
+      font-family: 'Ubuntu', sans-serif;
+      background-color: transparent;
+      border-radius:6px;
+      border:3px solid #dcdcdc;
+      display:inline-block;
+      cursor:pointer;
+      color:white;
+      font-size:15px;
+      padding:6px 24px;
+      text-decoration:none;
+      text-shadow:0px 1px 0px #ffffff;
+  }
+  
+  .closeModal:active {
+      position:relative;
+      top:1px;
+  }
+
+  a{
+      cursor: pointe;;
+  }

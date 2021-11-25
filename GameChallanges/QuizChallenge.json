@@ -1,0 +1,51 @@
+{
+    
+    "jungle" : 
+        [
+            {
+                "id": 1,
+                "question" : "What is the capital city of Armenia?",
+                "answer": "Yerevan"
+            },
+            {
+                "id": 2,
+                "question" : "What is the capital city of Brazil?",
+                "answer": "Brasilia"
+            },
+            {
+                "id": 3,
+                "question" : "What is the capital city of Australia?",
+                "answer": "Canberra"
+            },
+            {
+                "id": 4,
+                "question" : "What is the capital city of Indonesia?",
+                "answer": "Jakarta"
+            }
+        ],
+    
+    "galaxy" :
+        [
+            {
+                "id": 1,
+                "question" : "Which color of star is the hottest: blue, red, yellow, orange?",
+                "answer": "blue"
+            },
+            {
+                "id": 2,
+                "question" : "What are space explorers called?",
+                "answer": "astronaut"
+            },
+            {
+                "id": 3,
+                "question" : "Which is the Largest planet in our solar system?",
+                "answer": "jupiter"
+            },
+            {
+                "id": 4,
+                "question" : "Which is the hottest planet in our solar system?",
+                "answer": "venus"
+            }
+        ]
+}
+        

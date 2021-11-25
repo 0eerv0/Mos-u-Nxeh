@@ -1,0 +1,24 @@
+{
+    "color": [
+        {
+            "id": 1,
+            "question" : "What do you get when you mix YELLOW and BLUE?",
+            "answer": "green"
+        },
+        {
+            "id": 2,
+            "question" : "What do you get when you mix RED and BLUE?",
+            "answer": "purple"
+        },
+        {
+            "id": 3,
+            "question" : "What do you get when you mix YELLOW and RED?",
+            "answer": "orange"
+        },
+        {
+            "id": 4,
+            "question" : "What do you get when you mix RED and WHITE?",
+            "answer": "pink"
+        }
+    ]
+}
